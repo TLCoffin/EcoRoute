@@ -5,20 +5,29 @@ body {
 }
 
 #search-container {
-    margin-bottom: 30px;
+    margin: 0 auto 2rem;
+    width: 50%;
+    background-color: #dfdfdf;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 label {
     margin-right: 10px;
+    margin: 0.2rem;
 }
 
 input {
     margin-right: 20px;
+    margin: 1rem;
     padding: 5px;
 }
 
 #searchBtn {
     padding: 10px 20px;
+    margin: 1rem;
     font-size: 16px;
 }
 
@@ -29,3 +38,4 @@ input {
 #route, #emissions {
     font-size: 18px;
 }
+
